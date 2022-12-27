@@ -1,4 +1,4 @@
-﻿string[] array = new string[] { "control", "5", "Hello", ";)" };
+﻿string[] array = new string[] { "control", "5", "Hello", ";)", "123" };
 
 void PrintArray(string[] arr)
 {
