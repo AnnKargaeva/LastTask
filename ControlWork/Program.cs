@@ -5,12 +5,12 @@ void PrintArray(string[] arr)
 
     for (int i = 0; i < arr.Length; i++)
     {
-        Console.Write($"{arr[i]} ");
+       Console.Write($"{arr[i]} ");
     }
     Console.WriteLine();
 }
 
-void Diffarray(string[] arr)
+void DiffArray(string[] arr)
 {
        for (int i = 0; i < arr.Length; i++)
     {
@@ -26,7 +26,7 @@ void Diffarray(string[] arr)
 
 PrintArray(array);
 
-Diffarray(array);
+DiffArray(array);
 
 Console.Write("-> ");
 
